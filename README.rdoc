@@ -5,7 +5,7 @@ Steps to get your new rails app all nice and good. (Based on my experience getti
 1) Have a computer
 
 2) Have ruby (I recommend installing rubies through rvm :)
-* use the command :
+use the command :
         curl -sSL https://get.rvm.io | bash -s stable
 followed by 
         rvm install ruby 2.1.1
