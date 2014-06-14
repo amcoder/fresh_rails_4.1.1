@@ -15,8 +15,8 @@ and
           
 3) Have git (if you use linux type the following in the command line:)
         sudo apt-get install git
-        if you're a Mac user, figure it out yourslef ya hipster! Basicaally just grab it with homebrew
-        If you are on windows try goog;e; I have no idea.
+if you're a Mac user, figure it out yourslef ya hipster! Basically just grab it with homebrew
+If you are on windows try google; I have no idea. Best of luck brave warrior.
         
         
         
