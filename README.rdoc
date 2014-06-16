@@ -22,9 +22,9 @@ If you are on windows try google; I have no idea. Best of luck brave warrior.
         
 4) in the command line : 
     git clone git@github.com:Andrew-Max/fresh_rails_4.1.1.git
-    cd cd fresh_rails_4.1.1/
+    cd fresh_rails_4.1.1/
     bundle
     
 This is far from an exhaustive list of steps but its aproximately what you'll need
 
-If you are looking for more detailed instructions the first chapter of http://www.railstutorial.org/book is a fantastic and detailed resource for setting up railss environments
+If you are looking for more detailed instructions the first chapter of http://www.railstutorial.org/book is a fantastic and detailed resource for setting up rails environments
