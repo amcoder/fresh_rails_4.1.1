@@ -1,6 +1,7 @@
 == README
 
-Steps to get your new rails app all nice and good. (Based on my experience getting environments up on my ubuntu box)
+Steps to get your new rails app all nice and good. (Based on my experience getting environments up on my ubuntu box).
+See below for Windows setup instuctions.
 
 1) Have a computer
 
@@ -16,7 +17,7 @@ and
 3) Have git (if you use linux type the following in the command line:)
         sudo apt-get install git
 if you're a Mac user, figure it out yourslef ya hipster! Basically just grab it with homebrew
-If you are on windows try google; I have no idea. Best of luck brave warrior.
+Best of luck brave warrior.
         
         
         
@@ -28,3 +29,31 @@ If you are on windows try google; I have no idea. Best of luck brave warrior.
 This is far from an exhaustive list of steps but its aproximately what you'll need
 
 If you are looking for more detailed instructions the first chapter of http://www.railstutorial.org/book is a fantastic and detailed resource for setting up rails environments
+
+=== Windows Setup
+
+1) Install Ruby 1.9.3 from http://rubyinstaller.org/downloads/
+- Install to C:\\Ruby193
+- Make sure to check the box, "Add ruby executables to your path"
+
+2) Install the ruby dev kit from http://rubyinstaller.org/downloads/
+- Extract it to C:\\RubyDev
+- Open a new command prompt and run
+    cd c:\RubyDev
+    ruby dk.rb init
+    ruby dk.rb install
+    
+3) Install bundler
+    gem install bundler
+
+4) Install git from http://git-scm.com/download/win
+- Make sure to select the option, "Use git from the Windows Command Prompt" to add the binaries to your path.
+
+5) Open a command prompt and run
+    git clone git@github.com:Andrew-Max/fresh_rails_4.1.1.git
+    cd fresh_rails_4.1.1/
+    bundle
+
+6) Make sure it works
+    rails server
+Navigate to http://localhost:3000/
